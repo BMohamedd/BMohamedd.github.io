@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./index.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BM - Home</title>
+  </head>
+  <body>
+    <!-- navigation -->
+    <section
+      data-aos="fade-down"
+      data-aos-duration="800"
+      data-aos-delay="200"
+      id="navigation"
+    >
+      <h1>BM</h1>
+      <ul>
+        <li><a href="#project-header" class="navigation-item">Projects</a></li>
+        <li><a href="#about" class="navigation-item">About</a></li>
+        <li><a href="#contact-form" id="contact">Contact</a></li>
+      </ul>
+    </section>
+    <!-- hero -->
+    <section
+      id="hero"
+      data-aos="fade-up"
+      data-aos-duration="500"
+      data-aos-delay="300"
+    >
+      <img
+        src="./assets/programming-illustraton.svg"
+        alt="Programming illustration"
+      />
+      <div id="hero-text">
+        <h2>Well, Hello There 👋</h2>
+        <h4>I'm Mohamed, A Full-Stack Developer In Algeria!</h4>
+        <a href="#contact-form">Work With Me</a>
+      </div>
+    </section>
+    <!-- Project Section -->
+    <h2 id="project-header">Project Highlights</h2>
+    <section id="projects">
+      <div
+        class="card"
+        data-aos="fade-right"
+        data-aos-duration="500"
+        data-aos-delay="200"
+      >
+        <h5>Moons Clothing</h5>
+        <p>custom shopping application built with React and Epress</p>
+        <img
+          src="./assets/moons-min.JPG"
+          alt="moons screen shot"
+          width="100%"
+        />
+        <div class="button-holder">
+          <a
+            href="https://github.com/BMohamedd/moons-frontEnd"
+            class="sourse-code"
+            target="_blank"
+            >Sourse Code</a
+          ><a
+            href="https://starlit-taiyaki-3c35fa.netlify.app/"
+            class="live-demo"
+            target="_blank"
+            >Live Demo</a
+          >
+        </div>
+      </div>
+      <div
+        class="card"
+        data-aos="fade-right"
+        data-aos-duration="500"
+        data-aos-delay="400"
+      >
+        <h5>GIPHY lite</h5>
+        <p>App for Searching and Downloading Gifs</p>
+        <img
+          src="./assets/Gify lite-min.JPG"
+          alt="giphy lite screen shot"
+          width="100%"
+        />
+        <div class="button-holder">
+          <a
+            href="https://github.com/BMohamedd/GIPHY-light"
+            class="sourse-code"
+            target="_blank"
+            >Sourse Code</a
+          ><a
+            href="https://willowy-meringue-14e160.netlify.app"
+            target="_blank"
+            class="live-demo"
+            >Live Demo</a
+          >
+        </div>
+      </div>
+      <div
+        class="card"
+        data-aos="fade-right"
+        data-aos-duration="500"
+        data-aos-delay="600"
+      >
+        <h5>Parallel Landing Page</h5>
+        <p>HTML And Css And JS Product Landing Page</p>
+        <img
+          src="./assets/parallel-min.JPG"
+          alt="moons screen shot"
+          width="100%"
+        />
+        <div class="button-holder">
+          <a
+            href="https://github.com/BMohamedd/PARALLEL-landing-page"
+            target="_blank"
+            class="sourse-code"
+            >Sourse Code</a
+          ><a
+            href="https://bmohamedd.github.io/PARALLEL-landing-page/"
+            target="_blank"
+            class="live-demo"
+            >Live Demo</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+    <section
+      id="about"
+      data-aos="fade-up"
+      data-aos-duration="500"
+      data-aos-delay="300"
+    >
+      <img src="./assets/mernStack.png" alt="MERN stack" />
+      <div id="about-text-container">
+        <h2>What I know</h2>
+        <p>
+          As of 2022 I know JavaScript, HTML, CSS, React, Express As well as
+          NodeJs, MongoDB, Redux, Git and Few More things (<span
+            style="color: #6c63ff"
+          >
+            MERN STACK </span
+          >). Im Also Planning On Learning WordPress, PHP and SQL in the Near
+          Future
+        </p>
+        <h2>Coding challenges</h2>
+        <p>
+          Check Out some Cool Coding Challenges at my
+          <a
+            href="https://codepen.io/mohameddz"
+            style="color: #6c63ff"
+            referrerpolicy="no-referrer"
+            target="_blank"
+            >CODEPEN!</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- contact form -->
+    <section
+      id="contact-form"
+      data-aos="fade-up"
+      data-aos-duration="500"
+      data-aos-delay="300"
+    >
+      <form
+        action="https://formsubmit.co/f31d88396e2e71eef7f8ba4d48e1613e"
+        method="POST"
+      >
+        <input
+          type="text"
+          name="name"
+          placeholder="Full name*"
+          required
+          maxlength="320"
+        />
+        <input
+          type="email"
+          name="email"
+          maxlength="320"
+          placeholder="Email*"
+          required
+        />
+        <textarea
+          type="text"
+          name="messsage"
+          placeholder="Message* (max = 900)"
+          required
+          rows="15"
+          maxlength="900"
+        ></textarea>
+        <button type="submit" id="form-submit">Send</button>
+      </form>
+    </section>
+    <div id="svg-holder">
+      <svg
+        data-name="Layer 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1200 120"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+          opacity=".25"
+          class="shape-fill"
+        ></path>
+        <path
+          d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+          opacity=".5"
+          class="shape-fill"
+        ></path>
+        <path
+          d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+          class="shape-fill"
+        ></path>
+      </svg>
+    </div>
+    <div id="lorem">
+      <h2>Belhadj Mohamed</h2>
+      <p>Feel free To Contact Me About anything 😉</p>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
